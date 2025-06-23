@@ -1,0 +1,21 @@
+h1{
+    background-color: aquamarine;
+    color: black;
+}
+p{
+    background-color: blanchedalmond;
+    color: blue;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 3px solid aqua;
+    scale: 0.5;
+    transition: all linear 0.5s;
+}
+
+button{
+    margin-top: 6px;
+}
