@@ -31,6 +31,15 @@ const userArr = [
 
 function renderUsers(arr) {
     userContainer.innerHTML = ''
+
+    //Display text when No user Found
+    if (arr.length == 0){
+        let notFoundElem = document.createElement('div')
+        notFoundElem.className = 'userNotFound'
+        notFoundElem.textContent = 'No User Found'
+        userContainer.appendChild(notFoundElem)
+        return
+    }
     arr.map((items) => {
         let { profileUrl, name, email } = items  //Destructuring Technique
 
