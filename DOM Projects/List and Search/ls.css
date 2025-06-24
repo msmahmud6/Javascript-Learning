@@ -55,3 +55,10 @@ html,body{
     flex-direction: column;
     gap: 5px;
 }
+.userNotFound{
+    text-align: center;
+    font-style: oblique;
+    font-size: large;
+    font-weight: 500;
+    margin-top: 10px;
+}
